@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "권기범의 TIL",
-  description: "오늘의 TIL은 뭘까요~? 코 코 코프링~",
+  description: "권기범의 데일리 TIL은 뭘까요~? 코 코 코프링~",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

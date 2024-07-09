@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "권기범의 TIL"
-  text: "오늘의 TIL은 뭘까요~? 코 코 코프링~"
+  text: "권기범의 데일리 TIL은 뭘까요~? 코 코 코프링~"
   tagline: My great project tagline
   actions:
     - theme: brand
