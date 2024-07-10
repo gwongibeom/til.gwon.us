@@ -8,7 +8,7 @@ const vitepressSidebarOptions = {
 }
 
 export default defineConfig({
-  title: '권기범의 TIL',
+  title: '권기범의 TIL🌐',
   description: '권기범의 데일리 TIL은 뭘까요~? 코 코 코프링~',
   vite: {},
   themeConfig: {
