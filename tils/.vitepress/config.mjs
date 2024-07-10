@@ -1,28 +1,22 @@
 import { defineConfig } from 'vitepress'
+import { generateSidebar } from 'vitepress-sidebar'
 
-// https://vitepress.dev/reference/site-config
+const vitepressSidebarOptions = {
+  documentRootPath: '/tils',
+  sortMenusByName: true,
+  sortMenusOrderByDescending: true,
+}
+
 export default defineConfig({
-  title: "권기범의 TIL",
-  description: "권기범의 데일리 TIL은 뭘까요~? 코 코 코프링~",
+  title: '권기범의 TIL',
+  description: '권기범의 데일리 TIL은 뭘까요~? 코 코 코프링~',
+  vite: {},
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    nav: [],
+    sidebar: generateSidebar(vitepressSidebarOptions),
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+      { icon: 'x', link: 'https://x.com/_ggbDev_' },
+      { icon: 'discord', link: 'https://discord.gg/FnvxpbQ8wf' },
+    ],
+  },
 })
